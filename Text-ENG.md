@@ -1,6 +1,6 @@
 ## About
 
-Sexy Candies cam to be in February 2004 due to the sweet cravings of coworkers and the need of extra income. (NAME) started with the basics, 
+Sexy Candies came to be in February 2004 due to the sweet cravings of coworkers and the need of extra income. (NAME) started with the basics, 
 
 chocolate covered marshmallows, and then came the chocolate covered strawberry craze! 
 
@@ -39,6 +39,6 @@ On January of 2016, (NAME), at the age of 47, obtained her degree in Internation
 
 She has won several competitions amongst her peers such as the "Christmas Card" elaborated in chocolate,
 
-"Thr Gingerbread House", and the "Christmas Coquito" which she made out of chocolate and served in chocolate cups.
+"The Gingerbread House", and the "Christmas Coquito" which she made out of chocolate and served in chocolate cups.
 
 She is presently enrolled in the Culinary Arts Associate's Degree Programme in the Universidad del Este pursuing another passion.
