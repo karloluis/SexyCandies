@@ -1,32 +1,31 @@
 ## About
 
-Sexy Candies nació para un Febrero en el año 2004, satisfaciendo una necesidad entre mis compañeros
+Sexy Candies nació en Febrero del 2004 para satisfacer la necesidad dulzona entre compañeros
 
-de trabajo y para tener un ingreso adicional.  Comencé con lo más básico, marshmallows cubiertos con
+de trabajo y para obtener un ingreso adicional.  (Nombre) comenzó con lo más básico, malvaviscos cubiertos con
 
-chocolate, luego vino la moda de las fresas con chocolate y posterior a ello mis propias combinaciones
+chocolate y luego vino la moda de las fresas con chocolate. Posterior a ello, (Nombre) creó sus propias combinaciones
 
 de chocolate con frutas y nueces y las combinaciones que desearan los clientes.  
 
-Lo Sexy viene de mis decoraciones en los chocolates, no es lo mismo una fresa cubierta con chocolate
+Lo "Sexy" viene de las decoraciones en los chocolates, no es lo mismo una fresa cubierta con chocolate
 
 que una fresa con chocolate a lo Sexy Candies, siempre decoradas con grajeas y brillo comestible,
 
-causando sensación tanto a la vista como al paladar.  De pequeña tomé un curso de repostería básica
+causando sensación tanto a la vista como al paladar.  Cuando pequeña, (Nombre) tomó un curso de repostería básica
 
-todos los miércoles durante seis meses y desde ese momento fue una de mis grandes pasiones, no me
-
-dedicaba a ello pero cuando había un momento realmente especial, me ofrecía con pasión y esmero a
+todos los miércoles durante seis meses y desde ese momento fue una de sus grandes pasiones. Auqnque no se dedicó
+a ello por un tiempo, cuando había un momento realmente especial, se ofrecía con pasión y esmero a
 
 crear algo dulcemente delicioso y mágicamente bello.
 
-Hoy en día elaboro todo tipo de bizcochos, chocolates, cremas, mouses y dulces a petición del cliente.
+Hoy día, (Nombre()) elabora todo tipo de bizcochos, chocolates, cremas, mouses y dulces a petición del cliente.
 
 ## Concept
 
-El elaborar un postre, dulce, bizcocho, en fin cualquier gustito que frecuentemente llamamos pecado,  
+Elaborar postres, dulces, bizcochos, en fin cualquier gustito que frecuentemente llamamos pecado,  
 
-eso con lo que siempre soñó pero que nunca ha conseguido en ningún lugar.  
+eso con lo que siempre ha soñado pero que nunca ha conseguido en ningún lugar.  
 
 ## Product
 
@@ -44,14 +43,14 @@ especial.
 
 ## Creator
 
-Adquirió formalmente un grado técnico en Panadería y Repostería internacional a la edad de 47 años en
+(Nombre) adquirió formalmente un grado técnico en Panadería y Repostería internacional a la edad de 47 años en
 
-Enero de 2016, del Instituto de Banca y Comercio de Puerto Rico con Altos Honores.  Ganando varias
+Enero de 2016, del Instituto de Banca y Comercio de Puerto Rico con Altos Honores.  Ha ganando varias
 
-competencias entre sus compañeros, tales como la Tarjeta de Navidad la cual elaboró en chocolate, la
+competencias entre sus pares, tales como la Tarjeta de Navidad la cual elaboró en chocolate, la
 
-casita de jengibre y la competencia de coquito navideño, elaborando uno de chocolate el cual sirvió en
+casita de jengibre y la competencia de coquito navideño, elaborando uno de chocolate que sirvió en
 
-vasos de chocolate.  Siendo la cocina otra de sus pasiones comenzó su Grado Asociado en Artes
+vasos de chocolate.  Siendo la cocina otra de sus pasiones, (Nombre) comenzó un Grado Asociado en Artes
 
 Culinarias en la Universidad del Este.
