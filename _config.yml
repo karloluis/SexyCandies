@@ -1,2 +1,5 @@
 name: Sexy Candies
 markdown: kramdown
+
+gems:
+  - jekyll-redirect-from

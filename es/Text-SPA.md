@@ -1,12 +1,11 @@
 ## About
 
 Sexy Candies nació en Febrero del 2004 para satisfacer la necesidad dulzona entre compañeros
-
 de trabajo y para obtener un ingreso adicional.  (Nombre) comenzó con lo más básico, malvaviscos cubiertos con
 
 chocolate y luego vino la moda de las fresas con chocolate. Posterior a ello, (Nombre) creó sus propias combinaciones
 
-de chocolate con frutas y nueces y las combinaciones que desearan los clientes.  
+de chocolate con frutas y nueces y las combinaciones que desearan los clientes.
 
 Lo "Sexy" viene de las decoraciones en los chocolates, no es lo mismo una fresa cubierta con chocolate
 
@@ -23,9 +22,9 @@ Hoy día, (Nombre()) elabora todo tipo de bizcochos, chocolates, cremas, mouses 
 
 ## Concept
 
-Elaborar postres, dulces, bizcochos, en fin cualquier gustito que frecuentemente llamamos pecado,  
+Elaborar postres, dulces, bizcochos, en fin cualquier gustito que frecuentemente llamamos pecado,
 
-eso con lo que siempre ha soñado pero que nunca ha conseguido en ningún lugar.  
+eso con lo que siempre ha soñado pero que nunca ha conseguido en ningún lugar.
 
 ## Product
 
@@ -35,7 +34,7 @@ calidad.  Todo pedido se trabaja de manera individual.  Las fórmulas también s
 
 necesidades del cliente, bajos en azúcar o sustitución de la misma para clientes diabéticos, con leche de
 
-almendras, coco o soya para clientes intolerantes a la lactosa.  
+almendras, coco o soya para clientes intolerantes a la lactosa.
 
 No hay cena sin un buen postre, ni cumpleaños sin bizcocho, hagamos de ese momento uno sumamente
 
