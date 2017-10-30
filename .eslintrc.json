@@ -35,6 +35,7 @@
     "semi": [
       "error",
       "always"
-    ]
+    ],
+    "arrow-body-style": [0, "as-needed"]
   }
 }
