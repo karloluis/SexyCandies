@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { COLORS, HEADER_TYPEOGRAPHY, TEXTSIZE } from '../../lib/styles';
+import { COLORS, TYPEOGRAPHY, TEXTSIZE } from '../../lib/styles';
 
 const H1 = ({ children, light, style }) => {
   const color = light ? COLORS.texts.primary.light : COLORS.texts.primary.dark;
@@ -10,7 +10,7 @@ const H1 = ({ children, light, style }) => {
       <style jsx>
         {`
           h1 {
-            font-family: ${HEADER_TYPEOGRAPHY};
+            font-family: ${TYPEOGRAPHY.header.title};
             font-size: ${TEXTSIZE.xxl};
             color: ${color}
             line-height: 1.6;
@@ -25,7 +25,7 @@ const H1 = ({ children, light, style }) => {
 
 H1.propTypes = {
   children: PropTypes.node.isRequired,
-  light: PropTypes.boolean,
+  light: PropTypes.bool,
   style: PropTypes.object,
 };
 
