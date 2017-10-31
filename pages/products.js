@@ -21,7 +21,7 @@ const Products = () => {
 
       <div id="productsBlock">
 
-        <TitleBlock>
+        <TitleBlock img="018-food-14.svg">
           <H3 style={{ 'font-family': TYPEOGRAPHY.header.subtitle }}>Productos</H3>
         </TitleBlock>
 
@@ -31,7 +31,10 @@ const Products = () => {
           <div className="segment">
 
             <ul>
-              <H5>General</H5>
+              <TitleBlock single img="033-food.svg">
+                <H5>General</H5>
+              </TitleBlock>
+
               <li>Bizcochos</li>
               <li>Besitos de Coco</li>
               <li>Tres Leches</li>
@@ -41,11 +44,17 @@ const Products = () => {
               <li>Galletas</li>
               <li>Barra de dulces y frutas</li>
 
-              <H5>Otoño</H5>
+              <TitleBlock img="032-food-1.svg">
+                <H5>Otoño</H5>
+              </TitleBlock>
+
               <li>Sabores de calabaza</li>
               <li>Productos de nueces pecanas (pecans)</li>
 
-              <H5>Navidad</H5>
+              <TitleBlock img="019-food-13.svg">
+                <H5>Navidad</H5>
+              </TitleBlock>
+
               <li>Coquito de sabores</li>
               <li>Arroz con dulce</li>
               <li>Tembleque</li>
