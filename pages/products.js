@@ -1,5 +1,7 @@
 import React from 'react';
 
+import TitleBlock from '../components/TitleBlock/TitleBlock';
+
 import H1 from '../components/Typography/H1';
 import H2 from '../components/Typography/H2';
 import H3 from '../components/Typography/H3';
@@ -16,61 +18,63 @@ const Products = () => {
   return (
     <div>
       <Navigation />
+
       <div id="productsBlock">
-        <img src="/static/images/paintcake.jpg" width="300px" />
-        <H3 style={{ 'font-family': TYPEOGRAPHY.header.subtitle }}>Productos</H3>
 
-        <div className="segment">
-          <H4>General</H4>
-        </div>
-        <div className="segment">
-          <H5>Ocasiones</H5>
-          <ul>
-            <li>Bizcochos</li>
-            <li>Besitos de Coco</li>
-            <li>Tres Leches</li>
-            <li>Confecciones en Chocolate</li>
-            <li>Frutas cubiertas a su gusto</li>
-            <li>Flanes</li>
-            <li>Galletas</li>
-          </ul>
-        </div>
+        <TitleBlock>
+          <H3 style={{ 'font-family': TYPEOGRAPHY.header.subtitle }}>Productos</H3>
+        </TitleBlock>
 
-        <div className="segment">
-          <H5>Eventos</H5>
-          <ul>
-            <li>Barra de dulces y frutas</li>
-          </ul>
-        </div>
+        <div id="productsContent">
+          <img src="/static/images/paintcake.jpg" height="400px" alt="" />
 
-        <div className="segment">
-          <H5>Por Temporadas</H5>
+          <div className="segment">
 
-          <H6>Otoño</H6>
-          <ul>
-            <li>Sabores de calabaza</li>
-            <li>Productos de nueces pecanas (pecans)</li>
-          </ul>
+            <ul>
+              <H5>General</H5>
+              <li>Bizcochos</li>
+              <li>Besitos de Coco</li>
+              <li>Tres Leches</li>
+              <li>Confecciones en Chocolate</li>
+              <li>Frutas cubiertas a su gusto</li>
+              <li>Flanes</li>
+              <li>Galletas</li>
+              <li>Barra de dulces y frutas</li>
 
-          <H6>Navidad</H6>
-          <ul>
-            <li>Coquito de sabores</li>
-            <li>Arroz con dulce</li>
-            <li>Tembleque</li>
-          </ul>
+              <H5>Otoño</H5>
+              <li>Sabores de calabaza</li>
+              <li>Productos de nueces pecanas (pecans)</li>
+
+              <H5>Navidad</H5>
+              <li>Coquito de sabores</li>
+              <li>Arroz con dulce</li>
+              <li>Tembleque</li>
+            </ul>
+          </div>
         </div>
       </div>
 
       <style jsx>
         {`
+
           #productsBlock {
+            margin-top: 200px;
+          }
+
+          #productsContent {
             display: flex;
-            flex-flow: column nowrap;
+            flex-flow: row nowrap;
             align-content: center;
-            justify-content: center;
+            justify-content: space-between;
 
             width: 85vw;
-            margin: 200px auto 0 auto;
+            margin: 20px auto;
+          }
+
+          ul{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
           }
 
           li {

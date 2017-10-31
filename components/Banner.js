@@ -14,6 +14,7 @@ const Banner = (props) => {
       <H5 light style={{ 'fontStyle': 'italic', 'fontSize': '3.6em', 'textShadow': '-3px 0px black' }} >Always Tasty!</H5>
       <style jsx>{`
         #bannerWrapper{
+
           background-color: ${COLORS.shaders.dark};
           height: 100vh;
           width: 100vw;

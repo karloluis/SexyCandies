@@ -4,7 +4,10 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import Modal from 'react-modal';
 
+import TitleBlock from '../TitleBlock/TitleBlock';
+
 import H5 from '../Typography/H5';
+import P from '../Typography/Paragraph';
 
 import {COLORS, TEXTSIZE, SPACING, TYPEOGRAPHY} from '../../lib/styles';
 
@@ -32,9 +35,9 @@ class NavigationBar extends PureComponent {
         backgroundColor: COLORS.texts.terciary,
         border: `1px solid ${COLORS.texts.secundary}`,
         top: '24vh',
-        bottom: '24vh',
-        left: '24vw',
-        right: '24vw',
+        bottom: '20vh',
+        left: '22vw',
+        right: '22vw',
         // height: '40vh',
         // width: '50vw',
       },
@@ -55,8 +58,8 @@ class NavigationBar extends PureComponent {
           </H5>
         </Link>
 
-        <Link href="/#concept">
-          <a className="navLink">Concepto</a>
+        <Link href="/">
+          <a className="navLink">Inicio</a>
         </Link>
 
         <Link href="/products">
@@ -73,15 +76,39 @@ class NavigationBar extends PureComponent {
           isOpen={this.state.modal}
           onRequestClose={this.manageOrderModal}
         >
-          <H5>Ordene ahora</H5>
-          Para ordenes y servicio llame al (787) 473-1043
+          <TitleBlock img="003-bell-with-heart-covering-dish.svg">
+            <H5>Ordene ahora</H5>
+          </TitleBlock>
+          <P>
+            Para ordenes y servicio llame al
+          </P>
 
+          <P style={{ fontFamily: TYPEOGRAPHY.header.title, textAlign: 'center', color: COLORS.texts.secundary  }} >(787) 473-1043</P>
 
-          Para facilitar el proceso, favor tener la siguiente información
-          Fecha
-          Cantidad
-          Motivo
-          Contacto
+          <P>
+            Para facilitar el proceso, favor tener la siguiente información...
+          </P>
+
+          <div id="orderRequisites">
+            <ul>
+              <li>
+                Fecha de entrega
+              </li>
+
+              <li>
+                Cantidad
+              </li>
+
+              <li>
+                Motivo
+              </li>
+
+              <li>
+                Contacto
+              </li>
+            </ul>
+          </div>
+
         </Modal>
 
         <style jsx>
@@ -100,19 +127,20 @@ class NavigationBar extends PureComponent {
             }
 
             .navLink {
-              font-family:${TYPEOGRAPHY.input};
+              font-family:${TYPEOGRAPHY.contentcursive};
               display: inline-block;
               padding:${SPACING.sm} ${SPACING.lg} ${SPACING.sm} ${SPACING.md};
-              text-shadow: black -1px 2px;
-
+              text-shadow: gray -1px 1px;
               text-align: center;
               text-decoration: none;
-              color: ${COLORS.texts.terciary};
+
+              font-size: 1.8rem;
+              color: ${COLORS.texts.contrast};
             }
 
             .navLink:hover {
               background-color: ${COLORS.shaders.dark};
-              text-shadow: black -1px 2px;
+              text-shadow: black -1px 1px;
               font-style: italic;
             }
 
@@ -122,6 +150,17 @@ class NavigationBar extends PureComponent {
 
             #orderAction:hover {
               text-shadow: black -1px 2px;
+            }
+
+            #orderRequisites {
+              margin: ${SPACING.xs} ${SPACING.sm};
+              text-align: center;
+            }
+
+            li {
+              font-family: ${TYPEOGRAPHY.contentcursive};
+              font-size: ${TEXTSIZE.md};
+              color: ${COLORS.texts.contrast};
             }
          `}
         </style>
