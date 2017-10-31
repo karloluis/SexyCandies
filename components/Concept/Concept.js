@@ -47,7 +47,7 @@ const Concept = () => {
           .conceptImage {
             width: 40%;
             height: 80%;
-            background: url('/static/images/loader-reverse.svg') center no-repeat;
+            background: url('/static/images/cake-1.jpeg') center no-repeat;
             background-size: contain;
           }
 

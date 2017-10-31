@@ -11,7 +11,7 @@ const H4 = ({ children, light, style }) => {
         {`
           h4 {
             font-family: ${TYPEOGRAPHY.header.title};
-            font-size: ${TEXTSIZE.lg};
+            font-size: ${TEXTSIZE.xlg};
             color: ${color}
             line-height: 1.6;
             margin: .65rem 0 .50rem 0;

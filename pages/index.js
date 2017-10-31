@@ -12,7 +12,7 @@ import Banner from '../components/Banner';
 import Concept from '../components/Concept/Concept';
 // import About from '../components/About/About';
 
-import {COLORS, TYPEOGRAPHY} from '../lib/styles';
+import {COLORS, TYPEOGRAPHY, SPACING} from '../lib/styles';
 
 import I from '../components/Typography/italic';
 
@@ -46,22 +46,28 @@ const Home = (props) => {
         </P>
 
         <P>
-          Por muchos años <span style={{ fontFamily: TYPEOGRAPHY.header.title, fontSize: '1.2em' }}>Sexy Candies</span> ha sido una empreza familiar,
+          Por muchos años <span style={{ fontFamily: TYPEOGRAPHY.header.title, fontSize: '1.2em' }}>Sexy Candies</span> ha sido una empresa familiar,
           se considera un futuro donde se expanda la familia.
         </P>
       </div>
 
       <span id="logros" className="anchorOffset" />
-      <div style={{ width: '80vw', margin: '24px auto' }}>
-        <H5>Logros</H5>
+      <div id="achievementsBlock" style={{ width: '80vw', margin: '24px auto' }}>
+        <div id="achievementsContent">
+          <H5>Logros</H5>
 
-        <P>
-          Somart ha ganando varias competencias entre sus pares,
-          tales como la <I>Tarjeta de Navidad</I> la cual elaboró en chocolate,
-          la <I>casita de jengibre</I> y la competencia de <I>coquito navideño</I>,
-          elaborado de chocolate, sirvido en vasos de chocolate.
-        </P>
+          <P>
+            Somart ha ganando varias competencias entre sus pares,
+            tales como la <I>Tarjeta de Navidad</I> la cual elaboró en chocolate,
+            la <I>casita de jengibre</I> y la competencia de <I>coquito navideño</I>,
+            elaborado de cocoa, servido en vasos de chocolate.
+          </P>
+        </div>
 
+
+        <div id="achievementsImages">
+
+        </div>
       </div>
 
       <style jsx>{`
@@ -70,6 +76,28 @@ const Home = (props) => {
           position: relative;
           top: -190px;
           visibility: hidden;
+        }
+
+        #achievementsBlock {
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: space-around;
+
+          height: 450px;
+          width: 85vw;
+          margin: ${SPACING.lg} auto;
+        }
+
+        #achievementsContent {
+          width: 65%;
+        }
+
+        #achievementsImages {
+          height: 70%;
+          width: 25%;
+          background: url('/static/images/gingerbreadhouse.jpg') center no-repeat;
+          background-size: contain;
         }
       `}
       </style>

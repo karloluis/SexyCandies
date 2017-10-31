@@ -25,6 +25,9 @@ class NavigationBar extends PureComponent {
 
   render() {
     const modalStyle = {
+      overlay: {
+        // background: `${COLORS.shaders.primary}`,
+      },
       content: {
         backgroundColor: COLORS.texts.terciary,
         border: `1px solid ${COLORS.texts.secundary}`,
@@ -70,7 +73,15 @@ class NavigationBar extends PureComponent {
           isOpen={this.state.modal}
           onRequestClose={this.manageOrderModal}
         >
-          <H5>Ordena ahora</H5>
+          <H5>Ordene ahora</H5>
+          Para ordenes y servicio llame al (787) 473-1043
+
+
+          Para facilitar el proceso, favor tener la siguiente información
+          Fecha
+          Cantidad
+          Motivo
+          Contacto
         </Modal>
 
         <style jsx>
@@ -92,6 +103,7 @@ class NavigationBar extends PureComponent {
               font-family:${TYPEOGRAPHY.input};
               display: inline-block;
               padding:${SPACING.sm} ${SPACING.lg} ${SPACING.sm} ${SPACING.md};
+              text-shadow: black -1px 2px;
 
               text-align: center;
               text-decoration: none;
@@ -100,6 +112,7 @@ class NavigationBar extends PureComponent {
 
             .navLink:hover {
               background-color: ${COLORS.shaders.dark};
+              text-shadow: black -1px 2px;
               font-style: italic;
             }
 

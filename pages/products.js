@@ -3,6 +3,7 @@ import React from 'react';
 import H1 from '../components/Typography/H1';
 import H2 from '../components/Typography/H2';
 import H3 from '../components/Typography/H3';
+import H4 from '../components/Typography/H4';
 import H5 from '../components/Typography/H5';
 import H6 from '../components/Typography/H6';
 import P from '../components/Typography/Paragraph';
@@ -20,10 +21,10 @@ const Products = () => {
         <H3 style={{ 'font-family': TYPEOGRAPHY.header.subtitle }}>Productos</H3>
 
         <div className="segment">
-          <H5>General</H5>
+          <H4>General</H4>
         </div>
         <div className="segment">
-          <H5>Ocacionses</H5>
+          <H5>Ocasiones</H5>
           <ul>
             <li>Bizcochos</li>
             <li>Besitos de Coco</li>
@@ -36,15 +37,22 @@ const Products = () => {
         </div>
 
         <div className="segment">
+          <H5>Eventos</H5>
+          <ul>
+            <li>Barra de dulces y frutas</li>
+          </ul>
+        </div>
+
+        <div className="segment">
           <H5>Por Temporadas</H5>
 
           <H6>Otoño</H6>
           <ul>
             <li>Sabores de calabaza</li>
-            <li>Productos en nueces pecanas (pecans)</li>
+            <li>Productos de nueces pecanas (pecans)</li>
           </ul>
 
-          <H6>Navidades</H6>
+          <H6>Navidad</H6>
           <ul>
             <li>Coquito de sabores</li>
             <li>Arroz con dulce</li>
