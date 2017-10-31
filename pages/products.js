@@ -65,7 +65,7 @@ const Products = () => {
             display: flex;
             flex-flow: row nowrap;
             align-content: center;
-            justify-content: space-between;
+            justify-content: space-around;
 
             width: 85vw;
             margin: 20px auto;
