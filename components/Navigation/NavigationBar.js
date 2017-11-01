@@ -9,7 +9,7 @@ import TitleBlock from '../TitleBlock/TitleBlock';
 import H5 from '../Typography/H5';
 import P from '../Typography/Paragraph';
 
-import {COLORS, TEXTSIZE, SPACING, TYPEOGRAPHY} from '../../lib/styles';
+import { COLORS, TEXTSIZE, SPACING, TYPEOGRAPHY } from '../../lib/styles';
 
 class NavigationBar extends PureComponent {
   constructor(props) {
@@ -34,32 +34,37 @@ class NavigationBar extends PureComponent {
       content: {
         backgroundColor: COLORS.texts.terciary,
         border: `1px solid ${COLORS.texts.secundary}`,
-        top: '24vh',
-        bottom: '20vh',
-        left: '22vw',
-        right: '22vw',
-        // height: '40vh',
-        // width: '50vw',
+        borderRadius: '85px',
+        bottom: 'auto',
+        minHeight: '10rem',
+        left: '50%',
+        padding: '2rem',
+        position: 'fixed',
+        right: 'auto',
+        top: '50%',
+        transform: 'translate(-50%,-50%)',
+        minWidth: '20rem',
+        width: '60%',
+        maxWidth: '60rem',
       },
     };
 
     return (
       <nav id="navbar">
         <Link href="/">
-          <H5 id="navLogo"
+          <a id="navLogo"
             style={{
               display: 'inline-block',
               marginRight: 'auto',
               textAlign: 'center',
-              color: COLORS.texts.secundary
+              textDecoration: 'none',
             }}
           >
-            Sexy Candies
-          </H5>
-        </Link>
+            <H5 style={{ color: COLORS.texts.secundary }}>
+              Sexy Candies
+            </H5>
+          </a>
 
-        <Link href="/">
-          <a className="navLink">Inicio</a>
         </Link>
 
         <Link href="/products">
@@ -76,39 +81,40 @@ class NavigationBar extends PureComponent {
           isOpen={this.state.modal}
           onRequestClose={this.manageOrderModal}
         >
-          <TitleBlock img="003-bell-with-heart-covering-dish.svg">
-            <H5>Ordene ahora</H5>
-          </TitleBlock>
-          <P>
-            Para ordenes y servicio llame al
-          </P>
+          <div id="modalContent">
+            <TitleBlock img="003-bell-with-heart-covering-dish.svg">
+              <H5>Ordene ahora</H5>
+            </TitleBlock>
+            <P>
+              Para ordenes y servicio llame al
+            </P>
 
-          <P style={{ fontFamily: TYPEOGRAPHY.header.title, textAlign: 'center', color: COLORS.texts.secundary  }} >(787) 473-1043</P>
+            <P style={{ fontFamily: TYPEOGRAPHY.header.title, textAlign: 'center', color: COLORS.texts.secundary  }} >(787) 473-1043</P>
 
-          <P>
-            Para facilitar el proceso, favor tener la siguiente información...
-          </P>
+            <P>
+              Para facilitar el proceso, favor tener la siguiente información...
+            </P>
 
-          <div id="orderRequisites">
-            <ul>
-              <li>
-                Fecha de entrega
-              </li>
+            <div id="orderRequisites">
+              <ul>
+                <li>
+                  Fecha de entrega
+                </li>
 
-              <li>
-                Cantidad
-              </li>
+                <li>
+                  Cantidad
+                </li>
 
-              <li>
-                Motivo
-              </li>
+                <li>
+                  Motivo
+                </li>
 
-              <li>
-                Contacto
-              </li>
-            </ul>
+                <li>
+                  Contacto
+                </li>
+              </ul>
+            </div>
           </div>
-
         </Modal>
 
         <style jsx>
@@ -117,20 +123,23 @@ class NavigationBar extends PureComponent {
               position: fixed;
               top: 0;
               width: calc(100% - 2*${SPACING.xl});
-              padding: ${SPACING.xl} ${SPACING.xl};
+              padding: ${SPACING.md} ${SPACING.xl} ${SPACING.md} ${SPACING.xl};
               background-color: ${COLORS.shaders.lightly};
               font-size: ${TEXTSIZE.nav};
               display: flex;
               flex-direction: row;
               justify-content: flex-end;
-              align-items: center;
+              align-items: flex-start;
+
+              border: 0;
+              border-radius: 0 0 14px 14px;
             }
 
             .navLink {
-              font-family:${TYPEOGRAPHY.contentcursive};
+              font-family:${TYPEOGRAPHY.content};
               display: inline-block;
-              padding:${SPACING.sm} ${SPACING.lg} ${SPACING.sm} ${SPACING.md};
-              text-shadow: gray -1px 1px;
+              margin-top: ${SPACING.lg};
+              padding:${SPACING.sm} ${SPACING.mg} ${SPACING.sm} ${SPACING.md};
               text-align: center;
               text-decoration: none;
 
@@ -142,6 +151,8 @@ class NavigationBar extends PureComponent {
               background-color: ${COLORS.shaders.dark};
               text-shadow: black -1px 1px;
               font-style: italic;
+              border: 0;
+              border-radius: 16px;
             }
 
             #orderAction {

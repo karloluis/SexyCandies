@@ -26,7 +26,7 @@ const Products = () => {
         </TitleBlock>
 
         <div id="productsContent">
-          <img src="/static/images/paintcake.jpg" height="400px" alt="" />
+          <img src="/static/images/paintcake.jpg" height="600px" alt="" />
 
           <div className="segment">
 
