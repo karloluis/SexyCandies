@@ -9,23 +9,33 @@ const Banner = (props) => {
   return (
     <div id="bannerWrapper">
       <div id="banner__background">
-        <H1 style={{ color: COLORS.texts.secundary, 'textShadow': '-4px 2px black' }}>Sexy Candies</H1>
+        <div id="banner__border">
+          <H1 style={{ color: COLORS.texts.secundary, fontSize: '9em', lineHeight: '1.2' }}>Sexy Candies</H1>
 
-        <H5 light style={{ 'fontStyle': 'italic', 'fontSize': '3.6em', 'textShadow': '-3px 0px black' }} >Always Tasty!</H5>
+          <H5 light
+            style={{
+              color: COLORS.texts.contrast,
+              fontStyle: 'italic',
+              fontSize: '5.2em',
+              lineHeight: '1.2',
+            }}
+          >
+            Always Tasty!
+          </H5>
+
+        </div>
       </div>
 
       <style jsx>
         {`
           #bannerWrapper {
 
-            background-color: ${COLORS.shaders.dark} ;
+            background-color: '';
 
             height: 100vh;
             width: 100vw;
 
             margin: 0;
-
-
           }
 
           #banner__background {
@@ -42,6 +52,13 @@ const Banner = (props) => {
 
             height: 100%;
 
+          }
+
+          #banner__border {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
           }
         `}
       </style>

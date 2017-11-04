@@ -32,7 +32,7 @@ class NavigationBar extends PureComponent {
         // background: `${COLORS.shaders.primary}`,
       },
       content: {
-        backgroundColor: COLORS.texts.terciary,
+        backgroundColor: COLORS.shaders.lightly,
         border: `1px solid ${COLORS.texts.secundary}`,
         borderRadius: '85px',
         bottom: 'auto',
@@ -67,11 +67,11 @@ class NavigationBar extends PureComponent {
 
         </Link>
 
-        <Link href="/products">
+        <Link href="#products">
           <a className="navLink">Productos</a>
         </Link>
 
-        <Link href="/about">
+        <Link href="#about">
           <a className="navLink">Conócenos</a>
         </Link>
 

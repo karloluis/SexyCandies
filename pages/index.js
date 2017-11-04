@@ -1,7 +1,7 @@
 import React from 'react';
 
 import H1 from '../components/Typography/H1';
-import H2 from '../components/Typography/H2';
+import H3 from '../components/Typography/H3';
 import H5 from '../components/Typography/H5';
 import H6 from '../components/Typography/H6';
 import P from '../components/Typography/Paragraph';
@@ -11,6 +11,7 @@ import TitleBlock from '../components/TitleBlock/TitleBlock';
 import Navigation from '../components/Navigation/NavigationBar';
 import Banner from '../components/Banner';
 import Concept from '../components/Concept/Concept';
+import Products from '../components/Products/Products';
 import Team from '../components/Team/Team';
 import Achievements from '../components/Achievements/Achievements';
 // import About from '../components/About/About';
@@ -30,17 +31,22 @@ const Home = (props) => {
       <div className="contentBlock">
         <span id="concept" className="anchorOffset" />
         <TitleBlock>
-          <H5>
+          <H3>
             Concepto
-          </H5>
+          </H3>
         </TitleBlock>
         <Concept />
       </div>
 
       <div className="contentBlock">
+        <span id="products" className="anchorOffset" />
+        <Products />
+      </div>
+
+      <div className="contentBlock">
         <span id="team" className="anchorOffset" />
         <TitleBlock>
-          <H5>Equipo</H5>
+          <H3>Equipo</H3>
         </TitleBlock>
         <Team />
       </div>
@@ -48,7 +54,7 @@ const Home = (props) => {
       <div className="contentBlock">
         <span id="achievements" className="anchorOffset" />
         <TitleBlock>
-          <H5>Logros</H5>
+          <H3>Logros</H3>
         </TitleBlock>
         <Achievements />
       </div>

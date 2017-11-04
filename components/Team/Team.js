@@ -4,7 +4,7 @@ import P from '../Typography/Paragraph';
 import {COLORS, TYPEOGRAPHY, SPACING} from '../../lib/styles';
 
 const Team = () => (
-  <div style={{ width: '80vw', margin: '24px auto' }}>
+  <div style={{ width: '80vw', margin: '24px auto', textSizeAdjust: '100%' }}>
 
     <P>
       Somart Martos es la fundadora y chef de nuestra cocina.

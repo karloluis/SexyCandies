@@ -24,14 +24,14 @@ export default class MyDocument extends Document {
           <link rel="stylesheet" href="/static/css/base.css" />
         </Head>
         <body id="body">
-            {this.props.customValue}
-            <Main />
-            <NextScript />
+          {this.props.customValue}
+          <Main />
+          <NextScript />
         </body>
         <style jsx global>{`
           #body {
             margin: 0;
-            background-color: ${COLORS.texts.terciary};
+
             font-size: 16px;
             font-family: ${TYPEOGRAPHY.content}
           }

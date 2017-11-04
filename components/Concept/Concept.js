@@ -54,6 +54,7 @@ const Concept = () => {
             display: flex;
             flex-flow: row wrap;
             justify-content: space-between;
+            text-size-adjust: 100%;
           }
 
           .conceptSegment {
